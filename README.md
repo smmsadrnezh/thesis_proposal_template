@@ -1,4 +1,4 @@
-# Thesis Template
+# Thesis Proposal Template
 A LaTeX template for typesetting thesis proposal in Persian
 
 ## Preview
