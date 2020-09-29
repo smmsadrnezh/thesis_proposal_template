@@ -15,7 +15,8 @@
 \footnotesize{\textbf{دانشکدهٔ مهندسی و علوم کامپیوتر}}\\ \vspace{10pt}
 {\LARGE \textbf{\underline{فرم شناسنامهٔ} طرح پیشنهادی پایان‌نامه کارشناسی ارشد}} \\
 \end{center}
-\textbf{عنوان}
+\begin{enumerate}
+\item[] \textbf{عنوان}
 \begin{table}[H]
 \begin{center}
 \begin{tabular*}{0.94\textwidth}{|c | @{\extracolsep{\fill}} c |}
@@ -27,11 +28,10 @@
 \end{tabular*}
 \end{center}
 \end{table}
-\begin{enumerate}
 \item \textbf{ورودی‌ها و خروجی‌های مسئله}
 \begin{table}[H]
 \begin{center}
-\begin{tabular*}{0.94\textwidth}{|c | @{\extracolsep{\fill}} c |}
+\begin{tabular*}{0.94\textwidth}{|c | @{\extracolsep{\fill}} p{12.58cm} |}
 \hline
  \textbf{ورودی‌های مسئله} & لورم ایپسوم متن ساختگی \\
 \hline
@@ -41,27 +41,25 @@
 \end{center}
 \end{table}
 \item \textbf{مجموعه داده (\lr{Dataset})ای که قرار هست استفاده شود}
-\begin{table}[H]
-\begin{center}
-\begin{tabular*}{0.94\textwidth}{|p{0.925\textwidth} @{\extracolsep{\fill}} |}
-\hline
- ندارم $\square$ دارم \checkedsquare \\
-\hline
-\textbf{اسامی مجموعه داده:} لورم ایپسوم \\
-\hline
-\end{tabular*}
-\end{center}
-\end{table}
+\begin{abovestacked}
+ندارم $\square$ دارم \checkedsquare
+\end{abovestacked}
+\begin{belowstacked}
+\renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+\begin{enumerate}
+\item لورم ایپسوم
+\end{enumerate}
+\end{belowstacked}
 \item \textbf{پیاده‌سازی از کارهای گذشته}
 \begin{table}[H]
 \begin{center}
-\begin{tabular*}{0.94\textwidth}{|p{0.925\textwidth} @{\extracolsep{\fill}} |}
+\begin{tabular}{|p{0.92\textwidth}|}
 \hline
  ندارم $\square$ دارم \checkedsquare \\
 \hline
 \textbf{مرجع را بطور کامل با شماره استفاده شده در بخش مراجع، در این قسمت قید نمایید:} لورم ایپسوم \\
 \hline
-\end{tabular*}
+\end{tabular}
 \end{center}
 \end{table}
 \item \textbf{ادامه کار آزمایشگاه}
@@ -93,7 +91,7 @@
 \begin{center}
 \begin{tabular*}{0.94\textwidth}{|c | @{\extracolsep{\fill}} p{12cm} |}
 \hline
- \textbf{نمی‌توانم مقایسه کنم $\square$} & \textbf{دلیل عدم مقایسه با کارهای گدشته را شرح دهید:} \newline \\
+ \textbf{نمی‌توانم مقایسه کنم $\square$} & \textbf{دلیل عدم مقایسه با کارهای گذشته را شرح دهید:} \newline \\
 \hline
 \textbf{می‌توانم مقایسه کنم \checkedsquare} & \textbf{با کدام مرجع کار خود را مقایسه می‌کنید:} \newline لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. \\
 \hline
@@ -102,13 +100,27 @@
 \end{table}
 \item \textbf{سه مرجعی که طرح شما به آن نزدیک می‌باشد یا بر گرفته از آنهاست} \newline
 مراجع را لیست نمایید (مرجع را بطور کامل با شماره استفاده شده در بخش مراجع، در این قسمت قید نمایید):
-\begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می‌باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می‌طلبد تا با نرم‌افزارها شناخت بیشتری را برای طراحان رایانه ای علی‌الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می‌توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساساً مورد استفاده قرار گیرد.
+\begin{mdframed}
+\renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+\begin{latin}
+\baselineskip=.8\baselineskip
+\nocite{*}
+\addtocategory{primary}{abrishami2019predicting,aliakbary2009web}
+\begin{center}\end{center}\vspace{-2em}
+\printbibliography[heading=none, category=primary]
+\end{latin}
 \end{mdframed}
 \item \textbf{ده مرجع مرتبط با عنوان/موضوع طرح که حداقل هشت مورد در بازه سه سال گذشته باشند} \newline
 مراجع را لیست نمایید (مرجع را بطور کامل با شماره استفاده شده در بخش مراجع، در این قسمت قید نمایید):
-\begin{mdframed}[leftmargin=10pt,rightmargin=10pt]
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می‌باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می‌طلبد تا با نرم‌افزارها شناخت بیشتری را برای طراحان رایانه ای علی‌الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می‌توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساساً مورد استفاده قرار گیرد.
+\begin{mdframed}
+\renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+\begin{latin}
+\baselineskip=.8\baselineskip
+\nocite{*}
+\addtocategory{secondary}{aliakbary2015distance}
+\begin{center}\end{center}\vspace{-2em}
+\printbibliography[heading=none, category=secondary]
+\end{latin}
 \end{mdframed}
 \end{enumerate}
 \end{document}

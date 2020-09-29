@@ -17,7 +17,12 @@
 \newcommand{\checkedsquare}{\rlap{\raisebox{0.3ex}{\hspace{0.4ex}\tiny \ding{52}}}$\square$}
 
 % Frame Around Text %
-\usepackage[linewidth=1pt]{mdframed}
+\usepackage{mdframed}
+\newmdenv[skipbelow=0pt]{abovestacked}
+\newmdenv[skipabove=0pt]{belowstacked}
+
+% Nested Enumerate Numbering %
+\usepackage{enumitem}
 
 \addtolength{\textwidth}{0.2in}
 \addtolength{\oddsidemargin}{-0.1in}
@@ -30,7 +35,12 @@
 \usepackage{setspace}
 \usepackage[localise=on]{xepersian}
 
-\bibliographystyle{unsrt-fa}
+% Bibliography with no title %
+\usepackage[backend=biber,style=numeric]{biblatex}
+\renewcommand\refname{}
+\addbibresource{bibs.bib}
+\DeclareBibliographyCategory{primary}
+\DeclareBibliographyCategory{secondary}
 
 % Font Settings %
 \settextfont[Scale=1]{XB Yas}[
